@@ -13,9 +13,10 @@ class Question {
     return this._All;
   }
 }
- Question._All = [];
 
+Question._All = [];
 
-save () {
-  this.constructor._All.push(this)
-}
+let newQuestion = newQuestion("Where are you right now?")
+
+newQuestion.save();
+
