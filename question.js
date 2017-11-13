@@ -3,9 +3,9 @@
 class Question {
   constructor(content){
     this.content = content
-    this.save(;)
+    this.save()
   }
-  
+
   save(){
     this.constructor._All().push(this);
   }
