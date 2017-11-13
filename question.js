@@ -14,7 +14,7 @@ class Question {
   }
 
   static Find(id) {
-    this.All()[id - 1]
+    return this.All()[id - 1]
   }
 }
 
@@ -23,4 +23,3 @@ Question._All = [];
 let newQuestion = newQuestion("Where are you right now?")
 
 newQuestion.save();
-
